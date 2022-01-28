@@ -16,7 +16,7 @@ const Work = () => {
           description="This is my first freelance project displaying information related to a company."
         />
         <Card
-          src='/assets/image/two.png'
+          src="/assets/image/two.png"
           alt="Webscraping image"
           link="https://thekruathai.com/menu/"
           title="Kruthai Restaurant"
@@ -24,7 +24,7 @@ const Work = () => {
           description="A free-lancing project for a Thai Restaurant"
         />
         <Card
-          src='/assets/image/three.png'
+          src="/assets/image/three.png"
           alt="A ecoomerce site"
           link="https://hajurbuwa.com/"
           title="Ecommerce Website"
@@ -32,7 +32,7 @@ const Work = () => {
           description="A ecommerce site that let you buy and sell goods"
         />
         <Card
-           src='/assets/image/four.png'
+           src="/assets/image/four.png"
           alt="Personal Project"
           link="https://disney-clone-odu3ui157-albinlamichhane9-gmailcom.vercel.app/"
           title="Github.io Portfolio"
