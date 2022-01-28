@@ -1,17 +1,14 @@
 import React from "react";
 import Button from "../Button";
 import Card from "../Card";
-import Company from "../../public/assets/image/company.png";
-import Resta from "../../public/assets/image/two.png";
-import Hajur from "../../public/assets/image/three.png";
-import Four from "../../public/assets/image/four.png";
+
 
 const Work = () => {
   return (
     <>
       <div className="grid md:grid-cols-2 md:gap-10">
         <Card
-          src={Company}
+          src="/assets/image/company.png"
           alt="Old portfolio image"
           link="https://everestsalescompany.com/"
           title="Company Profile Site"
@@ -19,7 +16,7 @@ const Work = () => {
           description="This is my first freelance project displaying information related to a company."
         />
         <Card
-          src={Resta}
+          src='/assets/image/two.png'
           alt="Webscraping image"
           link="https://thekruathai.com/menu/"
           title="Kruthai Restaurant"
@@ -27,7 +24,7 @@ const Work = () => {
           description="A free-lancing project for a Thai Restaurant"
         />
         <Card
-          src={Hajur}
+          src='/assets/image/three.png'
           alt="A ecoomerce site"
           link="https://hajurbuwa.com/"
           title="Ecommerce Website"
@@ -35,7 +32,7 @@ const Work = () => {
           description="A ecommerce site that let you buy and sell goods"
         />
         <Card
-           src={Four}
+           src='/assets/image/four.png'
           alt="Personal Project"
           link="https://disney-clone-odu3ui157-albinlamichhane9-gmailcom.vercel.app/"
           title="Github.io Portfolio"
