@@ -1,17 +1,21 @@
-import Particles from "react-tsparticles";
+import { useCallback } from "react";
+import Particles from "react-particles";
+import { loadFull } from "tsparticles";
 
 
 
 const Particle = () => {
-    const particlesInit = (main) => {
-        console.log(main);
-    
-        // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-      };
-    
-      const particlesLoaded = (container) => {
-        console.log(container);
-      };
+  const particlesInit = useCallback(async engine => {
+    console.log(engine);
+    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+    // starting from v2 you can add only the features you need reducing the bundle size
+    await loadFull(engine);
+}, []);
+
+const particlesLoaded = useCallback(async container => {
+    await console.log(container);
+}, []);
   return (
     <Particles
     id="tsparticles"
@@ -45,7 +49,7 @@ const Particle = () => {
               "distance": 1000,
               "duration": 2,
               "opacity": 0.2,
-              "size": 20
+              "size": 40
             },
             "grab": {
               "distance": 1000
@@ -83,7 +87,7 @@ const Particle = () => {
             "density": {
               "enable": true
             },
-            "limit": 150,
+            "limit": 250,
             "value": 1000
           },
           "opacity": {
@@ -93,10 +97,14 @@ const Particle = () => {
               "minimumValue": 0.1
             }
           },
+          shape: {
+            type: "circle",
+        },
           "size": {
             "random": {
               "enable": true
             },
+          
             "value": {
               "min": 1,
               "max": 5
@@ -104,12 +112,14 @@ const Particle = () => {
             "animation": {
               "speed": 4,
               "minimumValue": 0.1
-            }
+            },
+            detectRetina: true,
           }
         }
       }}
   />
 );
 };
+
 
 export default Particle;

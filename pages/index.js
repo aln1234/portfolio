@@ -10,7 +10,8 @@ import Section from "../components/Section";
 import Particles from "react-tsparticles";
 import Particle from "../components/Particle";
 
-export default function Home({ articles }) {
+
+export default function Home() {
  
 
   return (
@@ -38,17 +39,14 @@ export default function Home({ articles }) {
           />
           <Work />
 
-          {/* <Section
-            id="blog"
-            title="My Blog"
-            description="The following are some of the writings that i have made in my spare time"
-          />
-          <Blog articles={articles} /> */}
+
 
           <Section
             id="about"
             title="About Me"
-            description="Hi i am Albin, a Web Developer & Designer from Nepal. While i am proficient in FullStack developer, My Expertise is in FrontEnd Web Development such as React, Node, Next, etc"
+            description="I am a highly dedicated and talented professional with a passion for creating visually stunning digital experiences through front-end development and data visualization. My background in 3D animation and digital media has provided me with a strong foundation in HTML, CSS, and JavaScript, which I am eager to leverage in my pursuit of a Master's degree in Data Science at Tampere University.
+
+          "
           />
           <About />
 
@@ -66,15 +64,15 @@ export default function Home({ articles }) {
   );
 }
 
-export async function getStaticProps() {
-  const res = await fetch(
-    `https://cms.devsign.id/articles?_limit=2&_author.slug=rifqi-rosyidi&_sort=published_at:asc`
-  );
-  const articles = await res.json();
+// export async function getStaticProps() {
+//   const res = await fetch(
+//     `https://cms.devsign.id/articles?_limit=2&_author.slug=rifqi-rosyidi&_sort=published_at:asc`
+//   );
+//   const articles = await res.json();
 
-  return {
-    props: {
-      articles,
-    },
-  };
-}
+//   return {
+//     props: {
+//       articles,
+//     },
+//   };
+// }

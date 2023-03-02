@@ -6,15 +6,13 @@ import {
   RiReactjsFill,
 } from "react-icons/ri";
 import {
-  SiDjango,
   SiGit,
-  SiGraphql,
   SiJavascript,
   SiMysql,
-  SiNodedotjs,
-  SiPhp,
   SiPython,
   SiTailwindcss,
+  SiNextdotjs
+  
 } from "react-icons/si";
 import Button from "../Button";
 
@@ -28,7 +26,7 @@ const About = () => {
         <RiHtml5Fill className="text-gray-800 text-7xl dark:text-gray-300 md:text-8xl" />
         <RiCss3Fill className="text-gray-800 text-7xl dark:text-gray-300 md:text-8xl" />
         <SiJavascript className="text-gray-800 text-7xl dark:text-gray-300 md:text-8xl" />
-        <SiPhp className="text-gray-800 text-7xl dark:text-gray-300 md:text-8xl" />
+        <SiNextdotjs className="text-gray-800 text-7xl dark:text-gray-300 md:text-8xl" />
         <SiMysql className="text-gray-800 text-7xl dark:text-gray-300 md:text-8xl" />
         <SiTailwindcss className="text-gray-800 text-7xl dark:text-gray-300 md:text-8xl" />
         <RiReactjsFill className="text-gray-800 text-7xl dark:text-gray-300 md:text-8xl" />
@@ -37,7 +35,7 @@ const About = () => {
         <SiGit className="text-gray-800 text-7xl dark:text-gray-300 md:text-8xl" />
       </div>
       <div className="mt-20 text-center">
-        <a href="https://pdfhost.io/v/Jxdvbk~wZ_updatedcv">
+        <a href="https://pdfhost.io/v/Oo8MBC.Ky_update_resume">
         <Button className="">View Resume</Button>
         </a>
       </div>

@@ -20,7 +20,7 @@ const Contact = () => {
         <div className="text-right flex md:flex-col items-center space-x-2 md:items-end">
           <BsTelephone className="text-2xl md:text-4xl md:items-end ml-auto text-gray-500 dark:text-gray-300" />
           <p className="md:mt-5 text-xl font-primary text-gray-500 dark:text-gray-300">
-            +977-9864481974
+            +358-451610330
           </p>
         </div>
         <div className="text-right flex md:flex-col items-center space-x-2 md:items-end mt-5 md:mt-20">
@@ -32,7 +32,7 @@ const Contact = () => {
         <div className="text-right flex md:flex-col items-center space-x-2 md:items-end mt-5 md:mt-20">
           <BsGeoAlt className="text-2xl md:text-4xl ml-auto text-gray-500 dark:text-gray-300" />
           <p className="md:mt-5 text-xl font-primary text-gray-500 dark:text-gray-300">
-            Tokha,Kathmandu,Nepal
+          Kerava,Tehtaanmäenkatu 
           </p>
         </div>
       </div>
