@@ -8,9 +8,9 @@ const Work = () => {
     <>
       <div className="grid md:grid-cols-2 md:gap-10">
         <Card
-          src="https://lh3.googleusercontent.com/orCUpU5GVQw0v0Wpep8sBGxYheDnyvZb0IgSkYAmINY5vdlgRWeLW7mKiMeKbrIt2wOwj_I7sLR-Qat8Esk4Er_1RYFFqvefzcsKsUmQU3St7lpBgulAG-UwRRtJHvjaAEH3QMbKGJaT9VRdZPpN3ZKqmw6bzZSR59_UgqjQK6G6vywJLaJxoE_kTWQgkM-_u4ofIUSis2r0j349YyS1-gQo3NzXTyyxOu9m8UJYcA9f7qNfwUeG4EyLp4nZNsRZomSIBBxf9qSoYMlM0SEXQAyxmlFkBhbFyZGleWbUAIC-JzYfCXEZsv1rOBPAAGJkGwSyqOXBr3IiB5zK1Vx1bYCAgIkUe2ltfTffPW6PXxSF0nnAPoni5LSVM8NINOYh6G0XQpSqxV-5GcDPzJtOS9EDAYpGtpf4fsbwQts_mXFKqRx2KROiRh0KisT7jg2MQIV47DjPgx27ph6bZdOWIKKlmBAk1I_WuEryrrXWTmQraVq1e3YsiU2PPelFHGfI-7ZZxeobbEdhgv-y7TC8sqacIHh-HwP-OxLEwmT8I4D24YotwduPA2VTlj59_-9Vli3I2w6pJCUf2OxxP5XC08EBxBA5qYSpW4Hb4633VSBp5kGNmZfuiHZwKNZ22QjZvKUJ1Ey-f9DJ6ykIKCO8TtVNLmVMbOb8-NaE9Qeu29fKph6M5eFpUqCRhVUoi3BjVpAiCn7FU1NdGD8RubBzJhFZ=w987-h830-no?authuser=0"
-          alt="Old portfolio image"
-          link="https://everestsalescompany.com/"
+          src="https://lh3.googleusercontent.com/pw/AMWts8CeUmBqhjlD4Z1UdI349g_yMnhhtbvm009J94a5IbynOtFmUJ-0fxlZDXlqeTBXYs3OWc6LxtfJLRuV5t8WjaVfOze1bYM694_WAQ1l99Rozesygu6JwWi-Q_Tux1XIIBpIQl6rOQylPhpGaE2rp5e0S0VCYzrohDcoxVvSducXbECvViM5IgAp5r-9kMW3j7VcypSgbISwEi28y4_QEiDGLf7Xkp3YzZ3Ewl883cy8hcwE-Pr9J5aRXuap13AUvo0-oCXwBWdYCR52LjH44l7jhuEdKFR5mLlKc8OKQOMFBBrTFjM-5dlU-Tq5-BiYnNV4_deqypbqe9eGow2C5bZSiEZ1_zKCZzwoKTriF2-xX2OoIcNHM4dn10aiScIMKvCK3-iTFESqbTaNaKTgcXEb7FGy2__UsYJu_Bgy1J2oh54hHSHj58ZqBsjAcJjinwuA9C7ElyQuCleUxZzlRVsOlUTT1CvwfqhsgD2-hcwnwLBy2hZqaE50-CnHWkIwee_3mkJIZtnvka4B4lZmOkvaXXAhC4Sv0QLiqBfrKQL-vJ2E2RCxOLrQ1cvUD-ijjAElN55ELK5ySLnQ1-H5JLHFIUWRHZAZCnLd3__hbMaHx-3_zXGs1sIYepuvTW38UDKlVO09S2wz6xQAm6Pe5OxCNVdgfAEVjAWxm5NGLb7iaPWM_3Je1txuPW3lAQ1Cjhf1MKDfT6fvszrcUIi4Q4e_koONCKgm9akjMSrDDxMn9RtjRaHtuA-sJxYgp6tzVX4gQYnDPUtmWQ9GZBhDPxqGSO6oXAXYRhWSJj-Id_ViyyTowGQwNFenGbSoT2iswU3KvT-obnzygcqUDx3bbejwW8-4LV40RaRi29LIIl_LSfkKJ5sZ-cOWyv_LHhEdLTGc3Ti2-30si-so4yCEH4Nd96UfO6vJCl7-HZhObIDnQzCPFS3IkXSnIfC1CiVW-L_BbgEpwr1GJBFkPz_ehUuprkX63FDKSFm36At6Qdo=w400-h194-no?authuser=1"
+          alt="Restore Photo"
+          link="https://restorephoto.vercel.app/"
           title="Company Profile Site"
           date="Feb 18"
           description="This is my first freelance project displaying information related to a company."
