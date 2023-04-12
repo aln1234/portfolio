@@ -8,7 +8,7 @@ const Work = () => {
     <>
       <div className="grid md:grid-cols-2 md:gap-10">
       <Card
-          src="\assets\image\voice.png"
+          src="/assets/image/voice.png"
           alt="Voice GPT"
           link="https://voicegpt-omega.vercel.app/"
           title="Voice GPT"
@@ -16,7 +16,7 @@ const Work = () => {
           description="In this project user can use their voice to send prompt to Chat Gpt and get results"
         />
         <Card
-         src="\assets\image\restore.png"
+         src="/assets/image/restore.png"
           alt="Restore Photo"
           link="https://restorephoto.vercel.app/"
           title="Restore Photo"
@@ -24,7 +24,7 @@ const Work = () => {
           description="This is my first time implementing a machine leraning project where user can restore any blur photo using Artificial Intelligence"
         />
         <Card
-          src="\assets\image\two.png"
+          src="/assets/image/two.png"
           alt="Webscraping image"
           link="https://thekruathai.com/menu/"
           title="Kruthai Restaurant"
@@ -32,7 +32,7 @@ const Work = () => {
           description="A free-lancing project for a Thai Restaurant"
         />
         <Card
-          src="\assets\image\three.png"
+          src="/assets/image/three.png"
           alt="A ecoomerce site"
           link="https://hajurbuwa.com/"
           title="Ecommerce Website"
@@ -40,7 +40,7 @@ const Work = () => {
           description="A ecommerce site that let you buy and sell goods"
         />
         <Card
-          src="\assets\image\four.png"
+          src="/assets/image/four.png"
           alt="Personal Project"
           link="https://disney-clone-odu3ui157-albinlamichhane9-gmailcom.vercel.app/"
           title="Github.io Portfolio"
