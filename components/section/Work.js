@@ -8,6 +8,23 @@ const Work = () => {
     <>
       <div className="grid md:grid-cols-2 md:gap-10">
       <Card
+          src="https://lh3.googleusercontent.com/pw/AJFCJaXW6gss272sEGjsLYf4c0sJgHUGaBp1FbU0C-5MXbTO2r57kTKDsW1U3nzoBSkcR_kb4y2COmmTeEcbDrruV2DmeEnym0Mq2PMPGZ3L7-HNWlPRJUc2nxs981yX4cuLHJUR36j6O1VVt2u8fqBORhVH7jzWiHh15ID66qJtcMoJBcI1ZpVlLuzsNhz967rW9Oyr8sVIY_fL2E9nbWnLG8VYZ4SbDBHFEVa5M-AMkyPK_Y8dfaWUOPsPxBao8ScHYIknhJMKxiAoI7kmKAtOibZ_mQKgZFs-uAd5QJiKPJaoIzbnASaWTTWLsu6u_mDV6KjuXqNlvjOiZ8yZYYpX5NkO27t1jYkrH5N57YFdcLxek9r_IRmUY9jfE82-DW0upKn6_mI0JfNbbWj6OIlBVoAOZU7GaKV_aKsduhduQ7x0WUtTXpIRewjAfhjbC15lskhA0yqnEitn-oEOmulHDY4mqcrmtyN_J3XK5O9MDGO6w6U1qSjgRWqDUjv6T_BM-2IDdDsF6Cd6C738J9I3oWyXW_4ydxRJ08yMBQBZ2PqskA10L89KTIEoufKRtbPzSFQi_GyhJeTLip1Fb4KUqyqTw5Xt4wSre286h1r5P1xIhUSKdyzGHyggb5tBiSwykxHXJc7ZdxlTOC-WC8TZCd4EMz3iuYAExJshSIkKcolKZDOEfktjUWnVKD9NKXDURYLhEVOLfjVQWESFYgLwfbB7A4ai6a9pSf3LLOGZ9ql-2ieb5EC1d9YVmWXjVawgR4tGzg_7flJVzN4av0FBxBBSaGwufzRhpGhHjh_BOpWgHYBuEOjGBaTspR4x0tswqh-jAPTx9NlCPAc_C5tyUUDRHi7OddgDcfGQpytAiVjT5Y92gWm572kdQzMnDiYnlU_KvugeGzOzfeO44c5tD0iJSMTrVtQUj2UAzEtZESJg78PeubgUBxb-32utxuXS_aX3bUhBTNTtEACJ8O4IWgaeNgU7HSs=w1920-h1030-s-no?authuser=0"
+          alt="Voice GPT"
+          link="https://voicegpt-omega.vercel.app/"
+          title="Next UI Design"
+          date="June 15"
+          description="This is a design made in next js and tailwind css"
+        />
+         <Card
+          src="https://lh3.googleusercontent.com/pw/AJFCJaXB4r15K95cAvJaBgR1dn6n5o-2QtkbdpxX4ZrSJBdE26oZZOgxTl1iwUtO4kh8REogyYmiTwmfU98QV9hTjVyDcyDAcWTveUpHfTYqnjBcYIWMrfwEAq_egMapfRkP4umnnY_CfNPmh6c4kR3QjJyRcabBRxibCdBVsOEStf6DY97J1hf31xAPydlKdDw8YSUyN0cVvoZAs7BZnawziIy1BBhgty6l-5qKOwRkqpXrQtVatw4GmsoW0GVyAvmKpi1dyOf_AYSpxIBxHqLx9bkqB05d5-NZXBSwAqWKSagPBIgd19IgMwUt7EpCl2YgEqt8dENQ6GUltO7oD_W1Gz35qrGWo_Ung_hokU0thRE6rG-yCA2CXRKmKGuVDYHr-OQjOYNN5VjOL96Np0AYalX-9NMZtYxR9SFcbn_Xy6hxgpVAUrkLnxquTiR5HsNbRZcx2ul-qYTsec_Vj1fgviFu0hAXB3duQ9vNvvuzBEIoibny1QRZRgvPHSInJS2RLVtzfgZnOtA9vw8efUOazrj9oRl-bDjv-l4ObhiqN66L_9xUw5SgJog3E06l0sWanMnvdSvPQkJ8wK3Ne8Xmonh2Wc3Jry4iYZtmAUB4_EdXgAu8NpJXFinM27LBlR_dOuQh9H718ke-fZxQ-et8OpQNToiKbvKMFltxf-7lugV04PMW0jQkVOVN7TomqGCwdQDXSOyYgOlawZf9zX1-XzKNSCTCB1B3XoV7sOlTlsYLREiSvvqhQrRosy0So1fWukZRr9zwtEYN2Y9jQLDrts8hcjMripiygxCAUyB_wpBH7oHhDAOr2ZvR3WFPmiObGLtO1fM-epjeFS6CiYiZfMnfpE769EbfhP9nbkb3Z1S9dy2Z1_KTbQ1WJDwult2z4WRRr7pNVKPw74Gk55Fp2H7FfFcZFK_hDgqwEbo_tzEQbz1mE0b-4tqY9U19ek8gCeTrSIYA9GZwfy6m8pNCcUAU80ZCnaw=w654-h420-no?authuser=0"
+          alt="Voice GPT"
+          link="https://voicegpt-omega.vercel.app/"
+          title="Realtime intruder detection"
+          date="June 15"
+          description="This is a system build in next js using tensorflow js that detects preson in real time"
+        />
+        
+      <Card
           src="https://lh3.googleusercontent.com/kN8yswqcyegTuarzAQ2tmKOIE2zlqhHkM9tu360C_2krkXLgE2uN992nYhTGwKNpfgbbPtBmnuHacJA8Gnem8L_yogIKquWgfn7TEOIhJFysqMeJSoro5XrRoepzXAGZOrWXOwN4djXKqbayvL9HiaiiQ7PCTYH6MoGsem1sjU0DWMkFxgkqPPmDTWQ8OZe9pJAhLMYZDOb7sNigmrHsKOJvLMWXN-RhY7nHVDYMrB5WCbC8_Bn8fsxBhvbxl-ybXYkpp8LCmknjBb_eHL2u0drx7acqSDH4t7Zf6GS2bBWJOeAjuCOvyeq2TK5ABwVXocJLqvmsXANDdopaUgWFOXm6dT2P2lej7iIglyLNPyZJABzjxV-VCkks5og-iNA5Qi3s51oRx6WPXTbuMaO7x-d63mmFCYUGoqdmDzMqCQu_u0e0z1o9TTP1EbIrLOTcngyVpnAOVFvk2k-BQEp3HxjkhrWfnEWUCpEqTaH9MncAkmzLJt00UeMAOUQ3kCaJVyIgLG5DEUc9j7l0oCfi6O00ungl1uvq4XS10bOq8RsgbvX2fv2lspgMPed7nykE_OmbgW9JdU5Hk4VXDKZgQs-D_Cf1nnvR3usnKs8UtQPeOCyCx8VQhLIUOIu2ABkKiAVtDdmZsxNbUs4SHKi5XGHyFepIjQgItPnp83tyLvxJtD51kMx_3UvOZMXjQ20qQY9w63QfCjNvb8vcjb0GUQkE-FmNd1ymbfOd5ZXQjIDWx6_OHW9CRtFCxupIYl5JSbcukY8SgVzzk-odRShd-m0b-_RPZXkawnVpaHj6oHUocooSRA0Hr_GZ9fFRrhZPz-F88ZKEsWQIkIHAPfrDH52xATqtVvwbByMoyYIBcHilt6yoNBK8CT57J_MF_b8H2xde_wIMMTjemcf4-ktNfcuh6-973SU79bt3QHo-6hjoN9JZW0Wmgmn5htJgBnvKsN2_UwBLFi2p14un9GgexQ=w1893-h943-s-no?authuser=0"
           alt="Voice GPT"
           link="https://voicegpt-omega.vercel.app/"
