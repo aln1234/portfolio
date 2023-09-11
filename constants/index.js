@@ -1,7 +1,4 @@
-import {ui,disney,voice,design,restorer,detection,cartoon} from  '../public/assets/image'
-
-
-
+// import {ui,disney,voice,design,restorer,detection,cartoon} from  '../public/assets/image'
 export const WorkDescription =[
     {
         ImageUrl:'/assets/image/cartoon.png',
