@@ -18,7 +18,6 @@ export default function Home() {
     <div className="bg-white dark:bg-gray-900">
       <Head>
         <title>Albin Lamichhane</title>
-        <link rel="icon" href="/favicon.ico" />
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Kreon:wght@300;400;500&display=swap"

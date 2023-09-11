@@ -12,18 +12,20 @@ const Hero = () => {
             Albin Lamichhane
           </p>
           <p className="font-primary font-medium text-2xl sm:text-2xl md:text-5xl text-gray-700 dark:text-gray-300 mt-5">
-          MSc in Data Science 
+          MSc in Data Science <br/>
+          University of Tampere
           </p>
           <div className="flex items-center justify-center mt-10 sm:hidden">
             <Social />
           </div>
         </div>
-        <div className=" w-56 cursor-pointer rounded-full hover:shadow-lg hover:scale-105  transition duration-500 ">
+        <div className="rounded-full cursor-pointer hover:shadow-lg hover:scale-105  
+        transition duration-500 ">
           <Image src={Profile}
           alt="Profile Pic" 
           loading="lazy"
         
-          className="rounded-full w-[400px] h-[250px]"/>
+          className="object-cover rounded-full w-[300px] h-[300px]"/>
         </div>
       </div>
     </>

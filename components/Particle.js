@@ -48,7 +48,7 @@ const particlesLoaded = useCallback(async container => {
             "bubble": {
               "distance": 1000,
               "duration": 2,
-              "opacity": 0.2,
+              "opacity": 0.6,
               "size": 40
             },
             "grab": {
@@ -58,14 +58,14 @@ const particlesLoaded = useCallback(async container => {
         },
         "particles": {
           "color": {
-            "value": "#40739e"
+            "value": "#0984e3"
           },
           "links": {
             "color": {
-              "value": "#2c3e50"
+              "value": "#0984e3"
             },
             "distance": 1000,
-            "opacity": 0.6
+            "opacity": 0.8
           },
           "move": {
             "attract": {
@@ -91,7 +91,7 @@ const particlesLoaded = useCallback(async container => {
             "value": 1000
           },
           "opacity": {
-            "value": 0.1,
+            "value": 0.2, // change opacity of bubble
             "animation": {
               "speed": 400,
               "minimumValue": 0.1

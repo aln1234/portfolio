@@ -2,18 +2,22 @@ import Image from "next/image";
 import PostDate from "./PostDate";
 
 const Card = ({ link = "#", src, alt, date, title, description }) => {
+  console.log(src,"i am a source")
   return (
     <div>
-      <div className="w-full md:w-auto">
+      <div className=" md:w-auto">
         <a href={link} target="_blank">
-          <div className="cursor-pointer p-10 mx-auto text-center bg-white rounded transition duration-1000 hover:scale-95">
-            <Image
-            unoptimized
-              src={src}
+          <div className="cursor-pointer rounded-xl w-[30rem] h-[20rem] text-center  transition duration-1000 hover:scale-95">
+       <Image
+
+              unoptimized
+              placeholder={src.blurDataURL}
+              loading="lazy"
+              src={src.src}
               alt={alt}
-              width="600"
-              height="400"
-              className="object-cover"
+              width={300}
+              height={300}
+              className="object-cover w-[30rem] h-[20rem] rounded-xl hover:opacity-75   "
             />
           
           </div>

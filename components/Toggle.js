@@ -4,9 +4,9 @@ import { useEffect } from "react";
 
 const Toggle = () => {
   const { theme, setTheme } = useTheme();
-
+  console.log(theme,"I am theme")
   useEffect(() => {
-    setTheme(theme === "light")
+    setTheme("dark")
   },[setTheme])
   return (
     <DarkModeSwitch
