@@ -4,7 +4,7 @@ import {ui,disney,voice,design,restorer,detection,cartoon} from  '../public/asse
 
 export const WorkDescription =[
     {
-        ImageUrl:cartoon,
+        ImageUrl:'/assets/image/cartoon.png',
         alt:"Cartonnify",
         link:"https://cartoonify-phi.vercel.app/",
         title:"Cartoonify",
@@ -13,7 +13,7 @@ export const WorkDescription =[
 
         },
         {
-            ImageUrl:design,
+            ImageUrl:"/assets/image/design.png",
             alt:"Responsive Design",
             link:"https://fs16-2-responsive-design-bbpj.vercel.app/",
             title:"Design Using Scss",
@@ -22,7 +22,7 @@ export const WorkDescription =[
     
             },
             {
-                ImageUrl:restorer,
+                ImageUrl:"/assets/image/restorer.png",
                 alt:"Resotre Photo",
                 link:"https://restorephoto.vercel.app/",
                 title:"Photo Restorer",
@@ -31,7 +31,7 @@ export const WorkDescription =[
         
                 },
                 {
-                    ImageUrl:ui,
+                    ImageUrl:"/assets/image/ui.png",
                     alt:"Next UI Design",
                     link:"https://next-uidesign.vercel.app/",
                     title:"Next UI Design",
@@ -40,7 +40,7 @@ export const WorkDescription =[
             
                     },
                     {
-                        ImageUrl:voice,
+                        ImageUrl:"/assets/image/voice.png",
                         alt:"Voice GPT",
                         link:"https://voicegpt-omega.vercel.app/",
                         title:"Voice To Chat Gpt",
@@ -49,7 +49,7 @@ export const WorkDescription =[
                 
                         },
                         {
-                            ImageUrl:disney,
+                            ImageUrl:"/assets/image/disney.png",
                             alt:"Disney Clone",
                             link:"https://disney-clone-puce.vercel.app/",
                             title:"Disney Clone",
@@ -58,7 +58,7 @@ export const WorkDescription =[
                     
                             },
                             {
-                                ImageUrl:detection,
+                                ImageUrl:"/assets/image/detection.png",
                                 alt:"RealTime Detection System",
                                 link:"https://intruder-detection-system.vercel.app/",
                                 title:"Real Time Detection System",

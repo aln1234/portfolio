@@ -13,7 +13,7 @@ const Card = ({ link = "#", src, alt, date, title, description }) => {
               unoptimized
               placeholder={src.blurDataURL}
               loading="lazy"
-              src={src.src}
+              src={src}
               alt={alt}
               width={300}
               height={300}

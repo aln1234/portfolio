@@ -22,6 +22,7 @@ const Hero = () => {
         <div className="rounded-full cursor-pointer hover:shadow-lg hover:scale-105  
         transition duration-500 ">
           <Image src={Profile}
+          unoptimized
           alt="Profile Pic" 
           loading="lazy"
         
