@@ -1,7 +1,7 @@
 // import {ui,disney,voice,design,restorer,detection,cartoon} from  '../public/assets/image'
 export const WorkDescription =[
     {
-        ImageUrl:'/assets/image/cartoon.png',
+        ImageUrl:'https://github.com/aln1234/portfolio/blob/main/public/assets/image/cartoon.PNG?raw=true',
         alt:"Cartonnify",
         link:"https://cartoonify-phi.vercel.app/",
         title:"Cartoonify",
@@ -10,7 +10,7 @@ export const WorkDescription =[
 
         },
         {
-            ImageUrl:"/assets/image/design.png",
+            ImageUrl:"https://github.com/aln1234/portfolio/blob/main/public/assets/image/design.PNG?raw=true",
             alt:"Responsive Design",
             link:"https://fs16-2-responsive-design-bbpj.vercel.app/",
             title:"Design Using Scss",
@@ -19,7 +19,7 @@ export const WorkDescription =[
     
             },
             {
-                ImageUrl:"/assets/image/restorer.png",
+                ImageUrl:"https://github.com/aln1234/portfolio/blob/main/public/assets/image/restorer.PNG?raw=true",
                 alt:"Resotre Photo",
                 link:"https://restorephoto.vercel.app/",
                 title:"Photo Restorer",
@@ -28,7 +28,7 @@ export const WorkDescription =[
         
                 },
                 {
-                    ImageUrl:"/assets/image/ui.png",
+                    ImageUrl:"https://github.com/aln1234/portfolio/blob/main/public/assets/image/ui.png?raw=true",
                     alt:"Next UI Design",
                     link:"https://next-uidesign.vercel.app/",
                     title:"Next UI Design",
@@ -37,7 +37,7 @@ export const WorkDescription =[
             
                     },
                     {
-                        ImageUrl:"/assets/image/voice.png",
+                        ImageUrl:"https://github.com/aln1234/portfolio/blob/main/public/assets/image/voice.PNG?raw=true",
                         alt:"Voice GPT",
                         link:"https://voicegpt-omega.vercel.app/",
                         title:"Voice To Chat Gpt",
@@ -46,7 +46,7 @@ export const WorkDescription =[
                 
                         },
                         {
-                            ImageUrl:"/assets/image/disney.png",
+                            ImageUrl:"https://github.com/aln1234/portfolio/blob/main/public/assets/image/disney.PNG?raw=true",
                             alt:"Disney Clone",
                             link:"https://disney-clone-puce.vercel.app/",
                             title:"Disney Clone",
@@ -55,7 +55,7 @@ export const WorkDescription =[
                     
                             },
                             {
-                                ImageUrl:"/assets/image/detection.png",
+                                ImageUrl:"https://github.com/aln1234/portfolio/blob/main/public/assets/image/detection.PNG?raw=true",
                                 alt:"RealTime Detection System",
                                 link:"https://intruder-detection-system.vercel.app/",
                                 title:"Real Time Detection System",

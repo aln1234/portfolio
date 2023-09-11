@@ -8,7 +8,7 @@ const Card = ({ link = "#", src, alt, date, title, description }) => {
       <div className=" md:w-auto">
         <a href={link} target="_blank">
           <div className="cursor-pointer rounded-xl w-[30rem] h-[20rem] text-center  transition duration-1000 hover:scale-95">
-       <Image
+       <img
 
               unoptimized
               placeholder={src.blurDataURL}
