@@ -1,6 +1,15 @@
 // import {ui,disney,voice,design,restorer,detection,cartoon} from  '../public/assets/image'
 export const WorkDescription =[
     {
+        ImageUrl:'https://github.com/aln1234/portfolio/blob/main/public/assets/image/buy.png?raw=true',
+        alt:"Buy",
+        link:"https://fs16-6-frontend-project-chi.vercel.app/",
+        title:"Buy E-commerce Website",
+        date:"Jan 12",
+        description:"This is the e-commerce website build during my full stack program at Integrify"
+
+        },
+    {
         ImageUrl:'https://github.com/aln1234/portfolio/blob/main/public/assets/image/cartoon.PNG?raw=true',
         alt:"Cartonnify",
         link:"https://cartoonify-phi.vercel.app/",
