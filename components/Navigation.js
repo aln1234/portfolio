@@ -46,7 +46,6 @@ const Navigation = () => {
         >
           <Button href="#home">Home</Button>
           <Button href="#work">Work</Button>
-          <Button href="#blog">Blog</Button>
           <Button href="#about">About</Button>
           <Button href="#contact">Contact</Button>
         </div>
@@ -59,7 +58,6 @@ const Navigation = () => {
         <div className="md:flex flex-col space-y-2 items-start md:flex-row md:space-y-0 md:items-center md:space-x-2 lg:space-x-4">
           <Button href="#">Home</Button>
           <Button href="#work">Work</Button>
-          <Button href="#blog">Blog</Button>
           <Button href="#about">About</Button>
           <Button href="#contact">Contact</Button>
         </div>

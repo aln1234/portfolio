@@ -16,7 +16,8 @@
     "react-particles": "^2.9.3",
     "react-toggle-dark-mode": "^1.0.4",
     "react-tsparticles": "^2.9.3",
-    "tsparticles": "^2.9.3"
+    "tsparticles": "^2.9.3",
+    "yarn": "^1.22.21"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",

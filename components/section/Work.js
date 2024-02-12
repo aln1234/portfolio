@@ -5,7 +5,6 @@ import { WorkDescription } from "../../constants";
 
 
 const Work = () => {
-  console.log(WorkDescription)
   return (
     <>
       <div className="grid md:grid-cols-2 md:gap-10">
