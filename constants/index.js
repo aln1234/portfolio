@@ -2,6 +2,15 @@
 export const WorkDescription =[
     {
         ImageUrl:'https://github.com/aln1234/portfolio/blob/main/public/assets/image/buy.png?raw=true',
+        alt:"AI Companion",
+        link:"https://ai-sass-henna.vercel.app/",
+        title:"AI Companion",
+        date:"Jan 12",
+        description:"AI companion is a web app that lets you transform your images with artificial intelligence. You can restore, fill, remove, or change your photos with Cloudinary API. Sign up with Clerk and get 5 credits for free"
+
+        },
+    {
+        ImageUrl:'https://github.com/aln1234/portfolio/blob/main/public/assets/image/buy.png?raw=true',
         alt:"Buy",
         link:"https://fs16-6-frontend-project-chi.vercel.app/",
         title:"Buy E-commerce Website",
