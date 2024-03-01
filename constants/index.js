@@ -1,7 +1,7 @@
 // import {ui,disney,voice,design,restorer,detection,cartoon} from  '../public/assets/image'
 export const WorkDescription =[
     {
-        ImageUrl:'https://github.com/aln1234/portfolio/blob/main/public/assets/image/aicomapnion.png',
+        ImageUrl:'https://github.com/aln1234/portfolio/blob/main/public/assets/image/aicomapnion.png?raw=true',
         alt:"AI Companion",
         link:"https://ai-sass-henna.vercel.app/",
         title:"AI Companion",
